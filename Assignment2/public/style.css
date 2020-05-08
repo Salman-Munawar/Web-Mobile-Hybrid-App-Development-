@@ -1,0 +1,11 @@
+#Maindiv{     
+    background-color:blueviolet; 
+    color:#FFF;
+     padding:10px;
+}
+
+.h1Class{
+    font-weight: bold; 
+    text-decoration: underline; 
+    color: blueviolet
+}
