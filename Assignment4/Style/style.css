@@ -1,0 +1,94 @@
+.navbar {
+    background-color: indigo !important;
+}
+
+.fa-medkit, .fa-arrows-alt, .fa-object-ungroup{
+    font-size: 34px !important;
+    color: #b2ac90;
+    margin-right: 10px;
+}
+
+ .nav-link{
+     color: white !important;
+ }
+
+.card1,.card2,.card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.MainCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newArrivals{
+    margin-top: 50px;
+}
+
+.card{
+  width: 250px;
+  height: auto !important;
+  margin-bottom: 5px;
+
+}
+
+.card-text{
+     font-weight: bold;
+}
+
+.btn-primary{
+ width: 100%;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold; 
+    margin: 20px; 
+    background-color: lightblue;   
+}
+
+.heading > h1 {
+    text-shadow: 2px 2px 4px black;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+
+.footer > div{
+    text-align: center !important;
+    align-items: center;
+}
+
+.copyright{
+    color: #fff;
+    opacity: .6;
+    margin: 0 0 40px;
+}
+
+.footer_text {
+    color: #fff;
+    opacity: .5;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3 {
+        width: 100%;
+    }
+
+}
