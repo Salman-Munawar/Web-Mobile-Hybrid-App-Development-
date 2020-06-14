@@ -190,7 +190,8 @@
         // var calculate = ((num + 5) * 10)/2
         // document.write(calculate); 
         
-        //Task 11          //  document.write("<h1>Age Calculator</h1><br>");
+        //Task 11          
+        //  document.write("<h1>Age Calculator</h1><br>");
           //  var currentYear = 2016;
           //  var birthYear = 1992;
           //  var age = currentYear - birthYear;
@@ -265,7 +266,12 @@
         // var name =  prompt("Enter your name");
         // alert("Hello " + name);
 
-        //Task 5
+        //Task 5          
+    //  var num = Number(prompt("Enter a number", 5));
+    //  document.write("Table of " + num + "<br>");
+    //  for(var a = 1; a<= 10; a++){
+    //    document.write(num+ "x"+ a + "=" + num * a + "<br>" ); 
+    //  }
 
         //Task 6
 
@@ -319,73 +325,79 @@
         // document.write(message);
 
         //Task 4
-          
+          // var fuel = Number(prompt("Enter fuel in litres", 1));
+          // if(fuel< 0.25){
+          //   document.write("Please refill the fuel in your car");
+          // }
+          // else{
+          //   document.write("fuel is enough in the car");
+          // }
 
         //Task 5
-// var alertCounter = 0;
-// var a = 4;
-// if (++a === 5) {
-// alert("given condition for variable a is true");
-// document.write("given condition for variable a is true"+"<br>");
-// alertCounter ++;
-// }
+        // var alertCounter = 0;
+        // var a = 4;
+        // if (++a === 5) {
+        // alert("given condition for variable a is true");
+        // document.write("given condition for variable a is true"+"<br>");
+        // alertCounter ++;
+        // }
 
-// var b = 82;
-// if (b++ === 83){
-// alert("given condition for variable b is true");
-// document.write("given condition for variable b is true"+"<br>");
-// alertCounter ++;
-// }
+      // var b = 82;
+      // if (b++ === 83){
+      // alert("given condition for variable b is true");
+      // document.write("given condition for variable b is true"+"<br>");
+      // alertCounter ++;
+      // }
 
-// var c = 12;
-// if (c++ === 13){
-// alert("condition 1 is true");
-// document.write("condition 1 is true"+"<br>");
-// alertCounter ++;
-// }
-// if (c === 13){
-// alert("condition 2 is true");
-// document.write("condition 2 is true"+"<br>");
-// alertCounter ++;
-// }
-// if (++c < 14){
-// alert("condition 3 is true");
-// document.write("condition 3 is true"+"<br>");
-// alertCounter ++;
-// }
-// if(c === 14){
-// alert("condition 4 is true");
-// document.write("condition 4 is true"+"<br>");
-// alertCounter ++;
-// }
+      // var c = 12;
+      // if (c++ === 13){
+      // alert("condition 1 is true");
+      // document.write("condition 1 is true"+"<br>");
+      // alertCounter ++;
+      // }
+      // if (c === 13){
+      // alert("condition 2 is true");
+      // document.write("condition 2 is true"+"<br>");
+      // alertCounter ++;
+      // }
+      // if (++c < 14){
+      // alert("condition 3 is true");
+      // document.write("condition 3 is true"+"<br>");
+      // alertCounter ++;
+      // }
+      // if(c === 14){
+      // alert("condition 4 is true");
+      // document.write("condition 4 is true"+"<br>");
+      // alertCounter ++;
+      // }
 
-// var materialCost = 20000;
-// var laborCost = 2000;
-// var totalCost = materialCost + laborCost;
-// if (totalCost === laborCost + materialCost){
-// alert("The cost equals");
-// document.write("The cost equals"+"<br>");
-// alertCounter ++;
-// }
+      // var materialCost = 20000;
+      // var laborCost = 2000;
+      // var totalCost = materialCost + laborCost;
+      // if (totalCost === laborCost + materialCost){
+      // alert("The cost equals");
+      // document.write("The cost equals"+"<br>");
+      // alertCounter ++;
+      // }
 
-// if (true){
-//     alert("True");
-//     document.write("True"+"<br>");
-//     alertCounter ++;
-//     }
-//     if (false){
-//     alert("False");
-//     document.write("False"+"<br>");
-//     alertCounter ++;
-//     }
+      // if (true){
+      //     alert("True");
+      //     document.write("True"+"<br>");
+      //     alertCounter ++;
+      //     }
+      //     if (false){
+      //     alert("False");
+      //     document.write("False"+"<br>");
+      //     alertCounter ++;
+      //     }
 
-//     if("car" < "cat"){
-//         alert("car is smaller than cat");
-//         document.write("car is smaller than cat"+"<br>"+"<br>");
-//         alertCounter ++;
-//         }
+      //     if("car" < "cat"){
+      //         alert("car is smaller than cat");
+      //         document.write("car is smaller than cat"+"<br>"+"<br>");
+      //         alertCounter ++;
+      //         }
 
-//         document.write("Number of alerts is: " + alertCounter);
+      //         document.write("Number of alerts is: " + alertCounter);
 
   //Task 6
   // document.write("<h1>Marks Sheet</h1>");
@@ -468,10 +480,22 @@
   // }
 
     //Task10
+      // var Temp = Number(prompt("Enter Temperature:"));
 
+      // if(Temp > 40){
+      //   document.write("It is too hot outside.");         
+      // }
+      // else if(Temp > 30){
+      //   document.write("The Weather today is Normal."); 
+      // }
+      // else if(Temp > 20){
+      //   document.write("Today’s Weather is cool.");
+      // }
+      // else if(Temp > 10){
+      //   document.write("OMG! Today’s weather is so Cool.");
+      // }
 
-    //Task 11
-     
+    //Task 11     
 // var Firstnumber = Number(prompt("Enter First number"));
 // var Secondnumber = Number(prompt("Enter Second number"));
 // var Operation =   prompt("Enter one mathematical operator like (+, -, *, /, %)"); 
@@ -522,10 +546,37 @@
 // }
 
   //Chapter # 12-13
+
   //Task 1
+  // var ch = prompt("Enter a character:");
+  
+  // if(ch>=65 && ch<=90)
+  // {
+  //   document.write("\n Upper case letter");
+  // }
+  // else if(ch>=97 && ch<=122)
+  // {
+  //   document.write("\n Lower case letter");
+  // }
+  // else if(ch>=48 && ch<=57)
+  // {
+  //   document.write("\n Number");
+  // }   
+    
 
   //Task 2
+    // var num1 = Number(prompt("Enter any number:", 1));
+    // var num2 = Number(prompt("Enter any number:", 1));
 
+    // if(num1 > num2){
+    //       document.write(num1);
+    // }
+    // else if (num2 > num1){
+    //    document.write(num2);
+    // }
+    // else{
+    //    document.write("Numbers are equal");
+    // }
 
   //Task 3
   // var num;
@@ -548,8 +599,7 @@
   //     document.write("NaN");
   // }
 
-   //Task 4
-     
+   //Task 4    
     // var vowel = prompt("Enter a character ");
     // var result;
 
@@ -567,7 +617,6 @@
    //Task 5
      
     // var password = "abcd1234";
-
     // var userpassword = prompt("Please enter password");
 
     // if(userpassword == null || userpassword == "")
@@ -614,6 +663,25 @@
       // }
 
       //Chapter # 14-16
+
+      //Task 1
+       // var studentsNames = [];
+
+        //Task 2
+        //var studentsNames = new Array();
+
+        //Task 3
+        //var arr1 = ["Hello", "World", "Bye"];
+
+        //Task 4
+        //var arr2 = [29, 38, 16, 22];
+
+        //Task 5
+        //var arr3 = [true,false,true,false,false];
+
+        //Task 6
+        //var arr6 = [74, "Hello", true, {name: "John"}];
+
       //Task 7
       // var qualifications = [];
       // qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
@@ -682,6 +750,9 @@
       // document.write("Updated array: " + colorNames);
       
       //Task 10
+      // var score = [320, 230, 480, 120];
+      // document.write("Scores of Students : " + score + "<br>");
+      // document.write("Ordered Scores of Students : " + score.sort());
 
       //Task 11
       // var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
@@ -692,16 +763,84 @@
       // document.write("Selected cities list:<br>" + selectedCities);
       
       //Task 12
+      // var arr = ["This", "is", "my", "cat"];
+      // document.write("Array:<br>");
+      // document.write(arr + "<br><br>");
+
+      // document.write("String:<br>");
+      // document.write(arr.join(" "));
+
+
+      //Task 13
+      // var devices = ["keyborad" , "mouse", "printer", "monitor"];   
+        
+      // document.write("Devices: <br>");
+      // document.write(devices + "<br><br>");
+
+      // for(var a = 0; a < devices.length; a++){
+      //   document.write("Out: <br>");
+      //   document.write(devices[a]+ "<br>");
+      // }       
+
+      //Task 14
+        // var devices = ["keyborad" , "mouse", "printer", "monitor"];   
+        
+        // document.write("Devices: <br>");
+        // document.write(devices + "<br><br>");
+
+        // for(var a = devices.length - 1; a >= 0; a--){
+        //   document.write("Out: <br>");
+        //   document.write(devices[a]+ "<br>");
+
+        // }
+        
+       
        
       //Task 15
-        var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
-        document.write("<select>");
-        for(var i= 0; i < arr.length; i++){
-          document.write("<option>" + arr[i] + "</option>")
-        }
-        document.write("</select>");
+        // var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+        // document.write("<select>");
+        // for(var i= 0; i < arr.length; i++){
+        //   document.write("<option>" + arr[i] + "</option>")
+        // }
+        // document.write("</select>");
 
       //Chapter # 17-20
+
+       //Task 1
+       //var arr = [[],[]];
+
+       //Task 2         
+        // var twoDArr = [[0,1,2,3], [1,0,1,2], [2,1,0,1]];
+        // for (var a = 0; a < twoDArr.length; a++){
+        //      document.write(twoDArr[a].join(" ") + "<br>");
+        // }
+
+        //Task 3
+        // for(i = 1; i <= 10; i++){
+        //   document.write(i + "<br>");
+        // }
+
+        //Task 4
+          // var num = Number(prompt("Enter a number to show its multiplication table"));
+          // var length = Number(prompt("Enter length multiplication table"));
+          // document.write("Multiplication table of " + num + "<br>");
+          // document.write("Lenght " + length + "<br><br>");
+          
+          // for(a=1; a<= length; a++){
+          //   document.write(num+ "x"+ a + "=" + num * a + "<br>" ); 
+          // } 
+          
+          //Task 5
+            // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+            // for(a= 0 ; a< fruits.length; a++){
+            //   document.write(fruits[a] + "<br>");
+            // }
+            // document.write("<br><br>");
+
+            // for(a= 0 ; a< fruits.length; a++){
+            //   document.write("Element at index " + a + " is " + fruits[a] + "<br>");
+            // }    
+
       //Task 6
       // var result = [];
 
@@ -771,8 +910,13 @@
       //  document.write("<b>Array items: " + A + "</b><br>");
       //  document.write("<b>The largest number is " + Math.min.apply(0,A) + "</b>");
 
-       //Task 10
-        
+       //Task 10                
+        // for(b = 1; b <= 100; b++){
+        //    if(b % 5 == 0){
+        //     document.write(b + ",");
+        //    }          
+        // }
+         
        
       
       
