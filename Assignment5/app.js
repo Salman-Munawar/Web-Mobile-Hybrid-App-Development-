@@ -692,6 +692,14 @@
       // document.write("Selected cities list:<br>" + selectedCities);
       
       //Task 12
+       
+      //Task 15
+        var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+        document.write("<select>");
+        for(var i= 0; i < arr.length; i++){
+          document.write("<option>" + arr[i] + "</option>")
+        }
+        document.write("</select>");
 
       //Chapter # 17-20
       //Task 6
