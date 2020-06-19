@@ -274,6 +274,24 @@
     //  }
 
         //Task 6
+        var subject1 = prompt("Enter Subject Name");
+        var subject2 = prompt("Enter Subject Name");
+        var subject3 = prompt("Enter Subject Name");
+        var subject1TotalMarks = 100;
+        var subject2TotalMarks = 100;
+        var subject3TotalMarks = 100;
+        var subject1Marks = Number(prompt("Enter marks obtained in " + subject1));
+        var subject2Marks = Number(prompt("Enter marks obtained in " + subject2));
+        var subject3Marks = Number(prompt("Enter marks obtained in " + subject3));
+
+        var TotalMarks = subject1TotalMarks + subject2TotalMarks + subject3TotalMarks;
+        var ObtainedMarks = subject1Marks + subject2Marks + subject3Marks;
+        var subject1Percentage = (subject1Marks / subject1TotalMarks) * 100;
+        var subject2Percentage = (subject2Marks / subject2TotalMarks) * 100;
+        var subject3Percentage = (subject3Marks / subject3TotalMarks) * 100;
+        var Percentage = (ObtainedMarks / TotalMarks) * 100;
+
+		    document.write("<table><tr><td>"+subject1+"</td><td>"+subject1TotalMarks+"</td><td>"+subject1Marks+"</td><td>"+subject1Percentage+"</td></tr><tr><td>"+subject2+"</td><td>"+subject2TotalMarks+"</td><td>"+subject2Marks+"</td><td>"+subject2Percentage+"</td></tr><tr><td>"+subject3+"</td><td>"+subject3TotalMarks+"</td><td>"+subject3Marks+"</td><td>"+subject3Percentage+"</td></tr></table>");
 
 
         //Chapter # 9-11
