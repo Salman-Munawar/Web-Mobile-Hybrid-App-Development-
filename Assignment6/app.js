@@ -168,9 +168,9 @@
 //  var num = Math.floor( Math.random() * 100 ) + 1;
 //  document.write("random number between 1 and 100: " + num + "<br/>");
 
-//T(ask 7
-// var weight = Number(prompt("Enter you Weight in kilogramss"));
-// document.write(parseFloat(weight).);
+//Task 7
+//  var weight = prompt("Enter you Weight in kilogramss"); 
+//  document.write("The weight of user is " + parseFloat(weight) + " kilograms" );  
 
 //Task 8
 // var secretNum = Math.floor( Math.random() * 10 ) + 1;
@@ -195,9 +195,14 @@
 // document.write("Current month: " + monthNames[date.getMonth()]);
 
 //Task 3
-
+// var  weekDays = ["Sun","Mon","Tue", "Wed", "Thu", "Fri", "Sat"];
+// var date = new Date();
+// document.write("Today is " + weekDays[date.getDay()]);
 
 //Task 4
+// var today = new Date();
+// if(today.getDay() == 6 || today.getDay() == 0) 
+//    document.write("It's Fun day");
 
 //Task 5
 // var date = new Date();
@@ -222,14 +227,45 @@
 // document.write("Elapsed Minutes since January 1, 1970: " + minutes); 
 
 //Task 7
+// var date = new Date();
+//   if(date.getHours() >= 12){
+//     document.write("It's PM");
+//   } 
+//   else     
+//    document.write("It's AM");
 
+//Task 8
+// var laterDate = new Date(2020,11,31);
+// document.write("Later date: " + laterDate);
 
+//Task 9
+// var RamadanDate = new Date("June 18 2015 00:00:00");
+// var currentDate = new Date();  
+// var timeDiff = currentDate.getTime() - RamadanDate.getTime();
+// var days = timeDiff / (1000 * 60 * 60 * 24);
+// document.write(Math.round(days) + " days have passed since 1st Ramadan, 2015");
+
+//Task 10
+// var refDate = new Date("Dec 05 2015 22:50:16");
+// var date = new Date("Jan 01 2015 00:00:00");
+ 
+// date.setSeconds(date.getSeconds());
+// refDate.setSeconds(refDate.getSeconds() - date);
+// alert(refDate);
+// var diff =  refDate - date;
+// alert(diff); 
 
 //Task 11
 // var date = new Date(); 
 // document.write("current date: " + date +"<br/>"); 
 // date.setHours(date.getHours() - 1);
 // document.write("1 hour ago,it was " + date);
+
+//Task 12
+// var date = new Date(); 
+// document.write("current date: " + date +"<br/>"); 
+// date.setFullYear(date.getFullYear() - 100);
+// document.write("100 years back , it was " + date);
 
 
 //Task 13
@@ -244,7 +280,7 @@
 
 
 
-// Chapter # 315-38
+// Chapter # 35-38
 //Task 1 
 // var date = new Date();  
 // function currentDate() {    
@@ -253,7 +289,57 @@
 //   document.write( currentDate() );
 
 //Task 2
+// var firstName = prompt("Enter first name");
+// var lastName = prompt("Enter last name");
 
+// function name(a, b) {
+//        var fullName = firstName + " " + lastName;
+//        return fullName.toUpperCase();
+//     }
+
+//   document.write("Welcome " + name(firstName,lastName));
+    
+//Task 3
+// var num1 = Number(prompt("Enter any number"));
+// var num2 = Number(prompt("Enter any number"));
+
+// function sum(a, b){
+//     return a + b;
+//     }
+
+//     document.write("Sum: " + sum(num1,num2));
+
+//Task 5
+//  function square (num) { 
+//      return num * num; 
+//     }
+
+//Task 6
+// var num = Number(prompt("Enter a Number"));
+
+// function factorial(n) {    
+//     return n ? n * factorial(n - 1) : 1;
+//   }
+  
+//   document.write( factorial(num));
+
+
+//Task 7
+
+//Task 9
+// var w = Number(prompt("Enter width"));
+// var h = Number(prompt("Enter height"));
+
+// function area(width, height)
+// {
+//     w = 5;
+//     h = 10;
+//     return width * height;
+// }
+
+// document.write("Area of a rectangle: " + area(w,h) + "<br/>");
+// document.write("Inside function calling: " + w +" , "+ h);
+ 
 //Task 10
 // var str = prompt("Enter palindrome  word, phrase, or sequence");
 
