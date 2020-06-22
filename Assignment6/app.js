@@ -247,13 +247,12 @@
 
 //Task 10
 // var refDate = new Date("Dec 05 2015 22:50:16");
-// var date = new Date("Jan 01 2015 00:00:00");
+// var date = new Date("Jan 01 2015"); 
+//   var diff =  (refDate.getTime() - date.getTime()) ;
+//   diffsec = diff/(60 * 60 * 24);
+//   diff = diff / diffsec;  
+//  document.write("On reference date " + refDate + " , <br> " + diff + " seconds had passed since beginning of 2015");
  
-// date.setSeconds(date.getSeconds());
-// refDate.setSeconds(refDate.getSeconds() - date);
-// alert(refDate);
-// var diff =  refDate - date;
-// alert(diff); 
 
 //Task 11
 // var date = new Date(); 
@@ -277,6 +276,23 @@
 
 
 //Task 14
+// var CustomerName = prompt("Enter name");
+// var currentMonth = prompt("Enter Month");
+// var noofunits = Number(prompt("Enter Units"));
+// var chargeofunits = Number(prompt("Enter Unit charges"));
+
+// var surcharge =  Number(prompt("Enter surcharge amount"));
+// var netAmount = noofunits * chargeofunits;
+// var grossAmount = netAmount +  surcharge;
+
+// document.write("<h1> K-Electric Bill </h1>");
+// document.write("Customer Name: " + CustomerName.toUpperCase() + "<br>" );
+// document.write("Month: " + currentMonth + "<br>");
+// document.write("Number of units: " + noofunits + "<br>");
+// document.write("Charges per units: " + chargeofunits + "<br><br>");
+// document.write("Net Amount Payable (within Due Date): " + netAmount + "<br>");
+// document.write("Late payment surcharge: " + surcharge + "<br>");
+// document.write("Gross Amount Payable (after Due Date): " + grossAmount + "<br>"); 
 
 
 
@@ -309,6 +325,64 @@
 
 //     document.write("Sum: " + sum(num1,num2));
 
+//Task 4
+
+// var Firstnumber = Number(prompt("Enter First number"));
+// var Secondnumber = Number(prompt("Enter Second number"));
+// var Operation =   prompt("Enter one mathematical operator like (+, -, *, /, %)"); 
+
+// function calculator(Firstnumber, Secondnumber, Operation){    
+//     if(Operation == "+")
+//     {
+//         var sum = Firstnumber + Secondnumber;
+//         document.write("Addition"+"<br>"+"<br>");     
+//         document.write("First Number is: " + Firstnumber+"<br>");     
+//         document.write("Second Number is: " + Secondnumber+"<br>");     
+//         document.write(Firstnumber + Operation + Secondnumber +" is " + sum);    
+//     }
+//     else if (Operation == "-")
+//     {
+//         var sub = Firstnumber - Secondnumber;
+//         document.write("Subtraction"+"<br>"+"<br>");    
+//         document.write("First Number is: " + Firstnumber+"<br>");
+//         document.write("Second Number is: " + Secondnumber+"<br>");
+//         document.write(Firstnumber + Operation + Secondnumber +" is " + sub);      
+//     }
+//     else if(Operation == "*")
+//     {
+//         var mul =  Firstnumber * Secondnumber;
+//         document.write("Multiplication"+"<br>"+"<br>");    
+//         document.write("First Number is: " + Firstnumber+"<br>");    
+//         document.write("Second Number is: " + Secondnumber+"<br>");    
+//         document.write(Firstnumber + Operation + Secondnumber +" is " + mul);     
+//     }
+//     else if(Operation == "/")
+//     {
+//         var divide =  Firstnumber / Secondnumber;
+//         document.writeln("Division"+"<br>"+"<br>");    
+//         document.writeln("First Number is: " + Firstnumber+"<br>");    
+//         document.writeln("Second Number is: " + Secondnumber+"<br>");    
+//         document.writeln(Firstnumber + Operation + Secondnumber +" is " + divide);        
+//     }
+//     else if(Operation == "%")
+//     {
+//         var mod =  Firstnumber % Secondnumber;
+//         document.write("Modulus"+"<br>"+"<br>");    
+//         document.write("First Number is: " + Firstnumber+"<br>");     
+//         document.write("Second Number is: " + Secondnumber+"<br>");     
+//         document.write(Firstnumber + Operation + Secondnumber +" is " + mod);        
+//     }
+//     else
+//     {
+//         document.write("Mathematical operation is not valid!");
+//     }
+    
+// }
+
+// document.write(calculator(Firstnumber, Secondnumber, Operation));
+
+
+
 //Task 5
 //  function square (num) { 
 //      return num * num; 
@@ -325,6 +399,33 @@
 
 
 //Task 7
+// var startNum = Number(prompt("Enter start number"));
+// var endNum = Number(prompt("Enter end number"));
+
+// function count(num1, num2){     
+     
+//     for (i = num1; i <= num2; i++) { 
+//       //  sum += i;
+//         document.write(i + " ");
+//     }
+// }
+
+//  count(startNum, endNum);
+
+
+//Task 8 
+// var Base = Number(prompt("Enter Base"));
+// var Perpendicular = Number(prompt("Enter Perpendicular"));
+
+// function calculateSquare (num) { 
+//          return num * num; 
+//         }
+
+//         function calculateHypotenuse(num1, num2){           
+//           return Math.sqrt(calculateSquare(num1)  + calculateSquare(num2)) ;
+//         }
+ 
+//    document.write("Hypotenuse of a right angle triangle: " + calculateHypotenuse(Base, Perpendicular).toFixed(2));
 
 //Task 9
 // var w = Number(prompt("Enter width"));
@@ -356,6 +457,11 @@
 //   }
 //   else
 //     document.write(str + ": A passed string is not a palindrome");
+
+//Task 11
+
+//Task 12
+
 
 //Task 13
 
