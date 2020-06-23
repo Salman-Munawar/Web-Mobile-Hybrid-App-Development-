@@ -458,12 +458,66 @@
 //   else
 //     document.write(str + ": A passed string is not a palindrome");
 
+
 //Task 11
+// var str = prompt("Enter any string");
+
+// function titleCase(str) {  
+//     str = str.toLowerCase().split(' ');
+  
+//     for(var i = 0; i < str.length; i++){
+//       str[i] = str[i].split('');
+//       str[i][0] = str[i][0].toUpperCase(); 
+//       str[i] = str[i].join('');
+//     }
+//     return str.join(' ');
+//   }  
+
+//   document.write("EXAMPLE STRING : " + str + "<br>" );
+//   document.write("EXPECTED OUTPUT : " + titleCase(str) + "<br>" );
+
 
 //Task 12
+// function longestWord(str)
+// {
+//   var arr = str.match(/\w[a-z]{0,}/gi);
+//   var result = arr[0];
+
+//   for(var x = 1 ; x < arr.length ; x++)
+//   {
+//     if(result.length < arr[x].length)
+//     {
+//     result = arr[x];
+//     } 
+//   }
+//   return result;
+// } 
+
+// var str = prompt("Enter any string");
+// document.write("EXAMPLE STRING : " + str + "<br>" );
+// document.write("EXPECTED OUTPUT : " + longestWord(str) + "<br>" );
 
 
 //Task 13
+// function charcount(str, letter) 
+// {
+//  var letter_Count = 0;
+//  for (var position = 0; position < str.length; position++) 
+//  {
+//     if (str.charAt(position) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+
+ 
+// var str = prompt("Enter any string");
+// var letter = prompt("Enter any letter");
+// document.write("Sample arguments : " + str + " , " + letter + "<br>" );
+// document.write("Character count : " + charcount(str, letter) + "<br>" ); 
+
 
 //Task 14
 // var rad = Number(prompt("Enter Radius"));
