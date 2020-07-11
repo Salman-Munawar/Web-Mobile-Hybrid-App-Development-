@@ -1,0 +1,31 @@
+.container{
+    height: 300px;
+    width: 100%;        
+}
+
+#display{
+    width: 100%;
+    font-size: 72px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+}
+
+.buttons{
+    text-align: center;
+}
+ 
+
+#lapContainer{
+    width: auto;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 0;    
+    color:silver;
+
+}
